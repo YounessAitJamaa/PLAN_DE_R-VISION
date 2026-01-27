@@ -1,0 +1,16 @@
+1- Quelle est la différence entre DDL (CREATE, ALTER) et DML (INSERT, UPDATE,
+DELETE) ?
+
+DDL : Data Definetion language , le DDL sert a creer ou modifier les bases de donnes.
+
+DML : Data Manipilation language , le DML sert a ajouter , modifier ou suprimer des donnes a l'interieur des tables exsistantes.
+
+2.​ À quoi sert une clé primaire ?
+
+cle primaire sert a identifier de facon unique chaque ligne d'une table.
+
+
+3.​ Comment filtre-t-on des données avec la clause WHERE ?
+
+la clause WHERE sert a selectionner seulement les lignes qui respectent une condition.
+

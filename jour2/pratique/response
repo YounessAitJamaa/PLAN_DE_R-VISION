@@ -1,0 +1,16 @@
+
+1-
+    CREATE TABLE Produits (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        nom VARCHAR(50),
+        prix DECIMAL(10, 2),
+        stock INT DEFAULT 0
+    );
+
+2- 
+    INSERT INTO Produits (nom, prix, stock) 
+    VALUES ('souris', 80, 4), ('clavier', 30, 3), ('pc', 40, 6);
+
+3-
+    UPDATE Produits SET prix = prix * 1.1 WHERE id = 1;
+    DELETE FROM Produits WHERE stock = 0;
