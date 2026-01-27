@@ -1,0 +1,11 @@
+1.​ Qu'est-ce qu'une classe dans un diagramme de classes ?
+
+Il s'agit d'un plan qui représente un rôle commercial ou d'un monde réel contenant des attributs et des méthodes
+
+2.​ Pourquoi est-il problématique d'avoir des classes sans méthodes ?
+
+because if the class has no methodes it will be only just a data structure that only stores data , and we know that the object must have behaviors 
+
+3.​ Expliquer le principe de responsabilité unique.
+
+that to create a class for one work and to have the one raison to change 
