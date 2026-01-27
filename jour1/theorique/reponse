@@ -8,4 +8,4 @@ because if the class has no methodes it will be only just a data structure that 
 
 3.​ Expliquer le principe de responsabilité unique.
 
-that to create a class for one work and to have the one raison to change 
+que de créer une classe pour un seul travail et d'avoir la seule raison de changer
