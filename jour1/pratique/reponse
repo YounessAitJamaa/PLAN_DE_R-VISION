@@ -1,0 +1,54 @@
+Challenge 1 : Créer une classe Livre avec uniquement des attributs (titre,
+auteur, isbn). Puis, la critiquer.
+
+class Livre {
+    public $titre;
+    public $auteur;
+    public $isbn;
+
+    public function __construct($titre, $auteur, $isbn) {
+        $this->titre = $titre;
+        $this->auteur = $auteur;
+        $this->isbn = $isbn;
+    }
+
+}
+
+critique : 
+
+- Cette classe ne possède aucune méthode, elle ne fait donc rien, elle se contente de stocker des données.
+
+
+Challenge 2 : Refactoriser la classe Livre en ajoutant les méthodes
+essentielles (emprunter(), retourner(), afficherDetails()).
+
+class Livre {
+    public $titre;
+    public $auteur;
+    public $isbn;
+
+    public function __construct($titre, $auteur, $isbn) {
+        $this->titre = $titre;
+        $this->auteur = $auteur;
+        $this->isbn = $isbn;
+    }
+
+    public function emprunter() {
+
+    }
+
+    public function retourner() {
+
+    }
+
+    public function afficherDetails() {
+
+    }
+
+}
+
+3.​ Challenge 3 : Modéliser une classe Etudiant et une classe Cours. Placer
+correctement la méthode inscriptionAuCours() dans la classe la plus
+pertinente et justifier le choix.
+
+Nous intégrerons la méthode inscriptionAuCours() dans la classe Étudiant car c'est cette classe qui peut s'inscrire à un cours.
