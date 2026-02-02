@@ -1,0 +1,21 @@
+Quelle est la différence fondamentale entre la composition et l'agrégation ?
+Donnez un exemple pour chacune.
+
+La composition lie fortement deux objets : la partie ne peut exister sans le tout. 
+
+Exemple composition : Voiture possède un moteur.
+
+L’agrégation lie faiblement deux objets : la partie peut exister indépendamment du tout.
+
+Exemple agrégation : École a des professeurs.
+
+2.​ Comment lisez-vous une cardinalité (ex: 1..* des deux côtés) ?
+
+1..1 -> exactement 1
+0..1 -> 0 ou 1
+0..* -> 0 ou plusieurs
+1..* -> au moins 1 ou plusieur.
+
+3.​ Qu'est-ce qu'une classe associative et quand l'utilise-t-on ?
+
+une classe qui représente une relation entre deux autres classes (many to many)

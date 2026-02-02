@@ -1,0 +1,15 @@
+1 : Modéliser la relation entre Maison et Piece. Justifier le choix entre
+agrégation et composition.
+
+composition car Une Maison contient plusieurs Pièces, et si la Maison est détruite, ses Pièces le sont aussi.
+
+2 : Modéliser la relation entre Etudiant et Cours. Définir les
+cardinalités (un étudiant peut suivre plusieurs cours, un cours a plusieurs
+étudiants).
+
+agrégation, car un étudiant et un cours peuvent exister indépendamment.
+
+cardinalités : 
+
+    Etudiant 0..* --- 0..* Cours
+
