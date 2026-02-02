@@ -1,0 +1,57 @@
+1 : Modifier la classe Voiture : mettre l'attribut vitesse en private
+
+class Voiture {
+    private $marque;
+    private $modele;
+    private $vitesse;
+
+    public function __construct($marque, $modele, $vitesse) {
+        $this->marque = $marque;
+        $this->modele = $modele;
+        $this->vitesse = $vitesse;
+    } 
+
+    public function accelerer() {
+        $this->vitesse += 1;
+    }
+}
+
+2 : Créer un getter getVitesse() et un setter setVitesse(int $v) qui empêche d'assigner une vitesse négative
+
+class Voiture {
+    public function getVitesse() {
+        return $this->vitesse;
+    }
+
+    public function setVitesse(int $v) {
+        $this->vitesse = $v;
+    }
+}
+
+3 : Créer une classe CompteBancaire avec un attribut solde privé.
+Implémenter les méthodes deposer() et retirer() en s'assurant que le solde
+ne puisse pas devenir négatif.
+
+class CompteBancaire {
+
+    private $solde;
+
+    public function __construct($solde = 0) {
+        $this->solde = $solde;
+    }
+
+    public function deposer($montant) {
+
+        if($montane > 0) {
+            $this->solde += $montant;
+        }
+    }
+
+    public function retirer($montant) {
+    
+        if($montant > 0 && $montane <= $this->solde) {
+            $this->solde -= $montant;
+        }
+    }
+
+}
