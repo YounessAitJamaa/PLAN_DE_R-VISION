@@ -1,0 +1,22 @@
+1- À quoi servent les fonctions COUNT, SUM, et AVG ?
+
+COUNT() pour compter les lignes d'un tableau
+SUM() pour additionner ou totaliser les valeurs d'une colonne de type entier ou flottant
+AVG() pour calculer la moyenne d'une colonne sélectionnée dans un tableau
+
+2.​ Peut-on utiliser COUNT(*) et COUNT(colonne) de manière interchangeable ?
+Pourquoi ?
+
+Non, on ne peut pas les utiliser de manière interchangeable, car COUNT(*) compte toutes les lignes, tandis que COUNT(colonne) ne compte que les valeurs non NULL de cette colonne.
+
+
+3- Comment MAX et MIN peuvent-ils être utilisés sur des dates ou des chaînes de
+caractères ?
+
+avec les dates : 
+    min() : la date la plus ancienne
+    max() : la date la plus recente
+
+avce les chaines de caracteres : 
+    min() : premier mot par ordre alphabetique
+    max() : dernier mot par ordre alphabetique

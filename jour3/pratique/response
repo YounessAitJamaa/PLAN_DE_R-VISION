@@ -1,0 +1,13 @@
+
+1-Écrire la requête pour afficher le nombre total de commandes.
+
+SELECT COUNT(*) FROM commandes;
+
+2 : Écrire la requête pour calculer le prix moyen de tous les produits.
+
+SELECT AVG(prix) FROM produits;
+
+3 : Écrire la requête pour trouver le montant de la commande la
+plus chère.
+
+SELECT MAX(montant) FROM commandes;

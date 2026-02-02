@@ -1,0 +1,11 @@
+1.​ Quelle est la différence entre une classe et un objet ?
+
+la classe est un plan (blueprint) que nous utilisons pour créer des objets
+
+2.​ À quoi sert le mot-clé $this ?
+
+$this represente l’objet courant
+
+3.​ Quel est le rôle du constructeur (__construct) ?
+
+Le constructeur est une magic method qui s’exécute automatiquement lors de la création d’un objet.
